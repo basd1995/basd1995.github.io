@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>My First Post</title>
+      <title>这是使用hugo发布的第一篇文章</title>
       <link>http://example.org/posts/my-first-post/</link>
       <pubDate>Sun, 19 Jul 2020 18:00:10 +0800</pubDate>
       
       <guid>http://example.org/posts/my-first-post/</guid>
-      <description></description>
+      <description>Hello Hugo 这周折腾了很久才吧 Hugo + GitHub Action 自动发布弄好 后面的话，慢慢吧自己之前的文章搬运上来~~</description>
     </item>
     
   </channel>
