@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
+    <link>https://basd1995.github.io/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Jul 2020 18:19:27 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://basd1995.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>介绍一下</title>
-      <link>http://example.org/posts/why-did-this/</link>
+      <link>https://basd1995.github.io/posts/why-did-this/</link>
       <pubDate>Sun, 19 Jul 2020 18:19:27 +0800</pubDate>
       
-      <guid>http://example.org/posts/why-did-this/</guid>
+      <guid>https://basd1995.github.io/posts/why-did-this/</guid>
       <description>这里是瓜皮万事屋，很高兴见到你 这个博客的用途：
  分享技术 分享踩过的坑 记录生活 推荐书 推荐电影 推荐游戏 碎碎念  </description>
     </item>
     
     <item>
       <title>这是使用hugo发布的第一篇文章</title>
-      <link>http://example.org/posts/my-first-post/</link>
+      <link>https://basd1995.github.io/posts/my-first-post/</link>
       <pubDate>Sun, 19 Jul 2020 18:00:10 +0800</pubDate>
       
-      <guid>http://example.org/posts/my-first-post/</guid>
+      <guid>https://basd1995.github.io/posts/my-first-post/</guid>
       <description>Hello Hugo 这周折腾了很久才吧 Hugo + GitHub Action 自动发布弄好 后面的话，慢慢吧自己之前的文章搬运上来~~</description>
     </item>
     
