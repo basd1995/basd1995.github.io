@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>瓜皮万事屋</title>
-    <link>https://basd1995.github.io/</link>
-    <description>Recent content on 瓜皮万事屋</description>
+    <title>技术 on 瓜皮万事屋</title>
+    <link>https://basd1995.github.io/technology/</link>
+    <description>Recent content in 技术 on 瓜皮万事屋</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2020 14:03:48 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2020 12:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://basd1995.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://basd1995.github.io/technology/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -25,25 +25,6 @@
  &amp;lt;div class=&amp;quot;parent&amp;quot;&amp;gt; &amp;lt;span class=before&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;div class=&amp;quot;child&amp;quot;&amp;gt; 外部包裹 &amp;lt;/div&amp;gt; &amp;lt;span class=after&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; 用伪元素优化一下：
  &amp;lt;div class=&amp;quot;parent&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;child&amp;quot;&amp;gt; 外部包裹 &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; .parent::after{ content: &amp;#39;&amp;#39;; clear:both; display: inline-block; height: 100%; vertical-align: middle; }  示例
  ##4.div设置table垂直居中 **需要设置父元素高度 **</description>
-    </item>
-    
-    <item>
-      <title>这是使用hugo发布的第一篇文章</title>
-      <link>https://basd1995.github.io/posts/my-first-post/</link>
-      <pubDate>Sun, 19 Jul 2020 19:19:27 +0800</pubDate>
-      
-      <guid>https://basd1995.github.io/posts/my-first-post/</guid>
-      <description>Hello Hugo 这周折腾了很久才吧 Hugo + GitHub Action 自动发布弄好 后面的话，慢慢吧自己之前的文章搬运上来~~</description>
-    </item>
-    
-    <item>
-      <title>介绍一下</title>
-      <link>https://basd1995.github.io/posts/about/</link>
-      <pubDate>Sun, 19 Jul 2020 18:19:27 +0800</pubDate>
-      
-      <guid>https://basd1995.github.io/posts/about/</guid>
-      <description>这里是瓜皮万事屋，很高兴见到你 这个博客的用途：
- 分享技术 分享踩过的坑 记录生活 推荐书 推荐电影 推荐游戏 碎碎念  </description>
     </item>
     
   </channel>
