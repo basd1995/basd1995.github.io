@@ -19,12 +19,13 @@
       <guid>https://basd1995.github.io/technology/css-center/</guid>
       <description>1.利用padding垂直居中(line-height用于单行文本居中) **不需要设置高度 **
 .parent { border: 1px solid red; padding: 15px 0; }  示例
- ##2.利用table垂直居中（兼容IE） **需要设置父元素高度 **
+ 2.利用table垂直居中（兼容IE） **需要设置父元素高度 **
 &amp;lt;table&amp;gt; &amp;lt;td&amp;gt; &amp;lt;div class=&amp;#34;child&amp;#34;&amp;gt; table垂直居中table垂直居中table垂直居中table垂直居中 &amp;lt;/div&amp;gt; &amp;lt;/td&amp;gt; &amp;lt;/table&amp;gt;  示例
- ##3.利用外部包裹垂直居中 **需要设置父元素高度 **
- &amp;lt;div class=&amp;quot;parent&amp;quot;&amp;gt; &amp;lt;span class=before&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;div class=&amp;quot;child&amp;quot;&amp;gt; 外部包裹 &amp;lt;/div&amp;gt; &amp;lt;span class=after&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; 用伪元素优化一下：
- &amp;lt;div class=&amp;quot;parent&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;child&amp;quot;&amp;gt; 外部包裹 &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; .parent::after{ content: &amp;#39;&amp;#39;; clear:both; display: inline-block; height: 100%; vertical-align: middle; }  示例
- ##4.div设置table垂直居中 **需要设置父元素高度 **</description>
+ 3.利用外部包裹垂直居中 **需要设置父元素高度 **
+&amp;lt;div class=&amp;#34;parent&amp;#34;&amp;gt; &amp;lt;span class=before&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;div class=&amp;#34;child&amp;#34;&amp;gt; 外部包裹 &amp;lt;/div&amp;gt; &amp;lt;span class=after&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; 用伪元素优化一下：
+&amp;lt;div class=&amp;#34;parent&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;child&amp;#34;&amp;gt; 外部包裹 &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; .parent::after{ content: &amp;#39;&amp;#39;; clear:both; display: inline-block; height: 100%; vertical-align: middle; }  示例
+ 4.div设置table垂直居中 **需要设置父元素高度 **
+&amp;lt;div class=&amp;#34;table&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;td&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;child&amp;#34;&amp;gt; div设置table &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;  示例</description>
     </item>
     
     <item>

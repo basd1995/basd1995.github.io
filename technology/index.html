@@ -6,7 +6,7 @@
     
     <title>技术 | 瓜皮万事屋</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.74.2" />
+    <meta name="generator" content="Hugo 0.74.3" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -39,7 +39,8 @@
 <meta property="og:url" content="https://basd1995.github.io/technology/" />
 <meta property="og:updated_time" content="2020-03-02T12:00:00-05:00" />
 <meta itemprop="name" content="技术">
-<meta itemprop="description" content="The last theme you&#39;ll ever need. Maybe."><meta name="twitter:card" content="summary"/>
+<meta itemprop="description" content="The last theme you&#39;ll ever need. Maybe.">
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="技术"/>
 <meta name="twitter:description" content="The last theme you&#39;ll ever need. Maybe."/>
 
@@ -134,12 +135,13 @@
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       1.利用padding垂直居中(line-height用于单行文本居中) **不需要设置高度 **
 .parent { border: 1px solid red; padding: 15px 0; }  示例
- ##2.利用table垂直居中（兼容IE） **需要设置父元素高度 **
+ 2.利用table垂直居中（兼容IE） **需要设置父元素高度 **
 &lt;table&gt; &lt;td&gt; &lt;div class=&#34;child&#34;&gt; table垂直居中table垂直居中table垂直居中table垂直居中 &lt;/div&gt; &lt;/td&gt; &lt;/table&gt;  示例
- ##3.利用外部包裹垂直居中 **需要设置父元素高度 **
- &lt;div class=&quot;parent&quot;&gt; &lt;span class=before&gt;&lt;/span&gt; &lt;div class=&quot;child&quot;&gt; 外部包裹 &lt;/div&gt; &lt;span class=after&gt;&lt;/span&gt; &lt;/div&gt; 用伪元素优化一下：
- &lt;div class=&quot;parent&quot;&gt; &lt;div class=&quot;child&quot;&gt; 外部包裹 &lt;/div&gt; &lt;/div&gt; .parent::after{ content: &#39;&#39;; clear:both; display: inline-block; height: 100%; vertical-align: middle; }  示例
- ##4.div设置table垂直居中 **需要设置父元素高度 **
+ 3.利用外部包裹垂直居中 **需要设置父元素高度 **
+&lt;div class=&#34;parent&#34;&gt; &lt;span class=before&gt;&lt;/span&gt; &lt;div class=&#34;child&#34;&gt; 外部包裹 &lt;/div&gt; &lt;span class=after&gt;&lt;/span&gt; &lt;/div&gt; 用伪元素优化一下：
+&lt;div class=&#34;parent&#34;&gt; &lt;div class=&#34;child&#34;&gt; 外部包裹 &lt;/div&gt; &lt;/div&gt; .parent::after{ content: &#39;&#39;; clear:both; display: inline-block; height: 100%; vertical-align: middle; }  示例
+ 4.div设置table垂直居中 **需要设置父元素高度 **
+&lt;div class=&#34;table&#34;&gt; &lt;div class=&#34;td&#34;&gt; &lt;div class=&#34;child&#34;&gt; div设置table &lt;/div&gt; &lt;/div&gt;  示例
     </div>
   </div>
 </div>

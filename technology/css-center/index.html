@@ -6,7 +6,7 @@
     
     <title>Css Center | 瓜皮万事屋</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.74.2" />
+    <meta name="generator" content="Hugo 0.74.3" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -31,12 +31,13 @@
     <meta property="og:title" content="Css Center" />
 <meta property="og:description" content="1.利用padding垂直居中(line-height用于单行文本居中) **不需要设置高度 **
 .parent { border: 1px solid red; padding: 15px 0; }  示例
- ##2.利用table垂直居中（兼容IE） **需要设置父元素高度 **
+ 2.利用table垂直居中（兼容IE） **需要设置父元素高度 **
 &lt;table&gt; &lt;td&gt; &lt;div class=&#34;child&#34;&gt; table垂直居中table垂直居中table垂直居中table垂直居中 &lt;/div&gt; &lt;/td&gt; &lt;/table&gt;  示例
- ##3.利用外部包裹垂直居中 **需要设置父元素高度 **
- &lt;div class=&quot;parent&quot;&gt; &lt;span class=before&gt;&lt;/span&gt; &lt;div class=&quot;child&quot;&gt; 外部包裹 &lt;/div&gt; &lt;span class=after&gt;&lt;/span&gt; &lt;/div&gt; 用伪元素优化一下：
- &lt;div class=&quot;parent&quot;&gt; &lt;div class=&quot;child&quot;&gt; 外部包裹 &lt;/div&gt; &lt;/div&gt; .parent::after{ content: &#39;&#39;; clear:both; display: inline-block; height: 100%; vertical-align: middle; }  示例
- ##4.div设置table垂直居中 **需要设置父元素高度 **" />
+ 3.利用外部包裹垂直居中 **需要设置父元素高度 **
+&lt;div class=&#34;parent&#34;&gt; &lt;span class=before&gt;&lt;/span&gt; &lt;div class=&#34;child&#34;&gt; 外部包裹 &lt;/div&gt; &lt;span class=after&gt;&lt;/span&gt; &lt;/div&gt; 用伪元素优化一下：
+&lt;div class=&#34;parent&#34;&gt; &lt;div class=&#34;child&#34;&gt; 外部包裹 &lt;/div&gt; &lt;/div&gt; .parent::after{ content: &#39;&#39;; clear:both; display: inline-block; height: 100%; vertical-align: middle; }  示例
+ 4.div设置table垂直居中 **需要设置父元素高度 **
+&lt;div class=&#34;table&#34;&gt; &lt;div class=&#34;td&#34;&gt; &lt;div class=&#34;child&#34;&gt; div设置table &lt;/div&gt; &lt;/div&gt;  示例" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://basd1995.github.io/technology/css-center/" />
 <meta property="article:published_time" content="2020-07-20T14:03:48+08:00" />
@@ -44,28 +45,31 @@
 <meta itemprop="name" content="Css Center">
 <meta itemprop="description" content="1.利用padding垂直居中(line-height用于单行文本居中) **不需要设置高度 **
 .parent { border: 1px solid red; padding: 15px 0; }  示例
- ##2.利用table垂直居中（兼容IE） **需要设置父元素高度 **
+ 2.利用table垂直居中（兼容IE） **需要设置父元素高度 **
 &lt;table&gt; &lt;td&gt; &lt;div class=&#34;child&#34;&gt; table垂直居中table垂直居中table垂直居中table垂直居中 &lt;/div&gt; &lt;/td&gt; &lt;/table&gt;  示例
- ##3.利用外部包裹垂直居中 **需要设置父元素高度 **
- &lt;div class=&quot;parent&quot;&gt; &lt;span class=before&gt;&lt;/span&gt; &lt;div class=&quot;child&quot;&gt; 外部包裹 &lt;/div&gt; &lt;span class=after&gt;&lt;/span&gt; &lt;/div&gt; 用伪元素优化一下：
- &lt;div class=&quot;parent&quot;&gt; &lt;div class=&quot;child&quot;&gt; 外部包裹 &lt;/div&gt; &lt;/div&gt; .parent::after{ content: &#39;&#39;; clear:both; display: inline-block; height: 100%; vertical-align: middle; }  示例
- ##4.div设置table垂直居中 **需要设置父元素高度 **">
-<meta itemprop="datePublished" content="2020-07-20T14:03:48&#43;08:00" />
-<meta itemprop="dateModified" content="2020-07-20T14:03:48&#43;08:00" />
+ 3.利用外部包裹垂直居中 **需要设置父元素高度 **
+&lt;div class=&#34;parent&#34;&gt; &lt;span class=before&gt;&lt;/span&gt; &lt;div class=&#34;child&#34;&gt; 外部包裹 &lt;/div&gt; &lt;span class=after&gt;&lt;/span&gt; &lt;/div&gt; 用伪元素优化一下：
+&lt;div class=&#34;parent&#34;&gt; &lt;div class=&#34;child&#34;&gt; 外部包裹 &lt;/div&gt; &lt;/div&gt; .parent::after{ content: &#39;&#39;; clear:both; display: inline-block; height: 100%; vertical-align: middle; }  示例
+ 4.div设置table垂直居中 **需要设置父元素高度 **
+&lt;div class=&#34;table&#34;&gt; &lt;div class=&#34;td&#34;&gt; &lt;div class=&#34;child&#34;&gt; div设置table &lt;/div&gt; &lt;/div&gt;  示例">
+<meta itemprop="datePublished" content="2020-07-20T14:03:48+08:00" />
+<meta itemprop="dateModified" content="2020-07-20T14:03:48+08:00" />
 <meta itemprop="wordCount" content="173">
 
 
 
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Css Center"/>
 <meta name="twitter:description" content="1.利用padding垂直居中(line-height用于单行文本居中) **不需要设置高度 **
 .parent { border: 1px solid red; padding: 15px 0; }  示例
- ##2.利用table垂直居中（兼容IE） **需要设置父元素高度 **
+ 2.利用table垂直居中（兼容IE） **需要设置父元素高度 **
 &lt;table&gt; &lt;td&gt; &lt;div class=&#34;child&#34;&gt; table垂直居中table垂直居中table垂直居中table垂直居中 &lt;/div&gt; &lt;/td&gt; &lt;/table&gt;  示例
- ##3.利用外部包裹垂直居中 **需要设置父元素高度 **
- &lt;div class=&quot;parent&quot;&gt; &lt;span class=before&gt;&lt;/span&gt; &lt;div class=&quot;child&quot;&gt; 外部包裹 &lt;/div&gt; &lt;span class=after&gt;&lt;/span&gt; &lt;/div&gt; 用伪元素优化一下：
- &lt;div class=&quot;parent&quot;&gt; &lt;div class=&quot;child&quot;&gt; 外部包裹 &lt;/div&gt; &lt;/div&gt; .parent::after{ content: &#39;&#39;; clear:both; display: inline-block; height: 100%; vertical-align: middle; }  示例
- ##4.div设置table垂直居中 **需要设置父元素高度 **"/>
+ 3.利用外部包裹垂直居中 **需要设置父元素高度 **
+&lt;div class=&#34;parent&#34;&gt; &lt;span class=before&gt;&lt;/span&gt; &lt;div class=&#34;child&#34;&gt; 外部包裹 &lt;/div&gt; &lt;span class=after&gt;&lt;/span&gt; &lt;/div&gt; 用伪元素优化一下：
+&lt;div class=&#34;parent&#34;&gt; &lt;div class=&#34;child&#34;&gt; 外部包裹 &lt;/div&gt; &lt;/div&gt; .parent::after{ content: &#39;&#39;; clear:both; display: inline-block; height: 100%; vertical-align: middle; }  示例
+ 4.div设置table垂直居中 **需要设置父元素高度 **
+&lt;div class=&#34;table&#34;&gt; &lt;div class=&#34;td&#34;&gt; &lt;div class=&#34;child&#34;&gt; div设置table &lt;/div&gt; &lt;/div&gt;  示例"/>
 
 	
   </head>
@@ -168,8 +172,8 @@
 </code></pre></div><blockquote>
 <p><a href="http://js.jirengu.com/jopih/7/edit?html,css,output">示例</a></p>
 </blockquote>
-<p>##2.利用table垂直居中（兼容IE）
-**需要设置父元素高度 **</p>
+<h2 id="2利用table垂直居中兼容ie">2.利用table垂直居中（兼容IE）</h2>
+<p>**需要设置父元素高度 **</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">    &lt;<span style="color:#f92672">table</span>&gt;
       &lt;<span style="color:#f92672">td</span>&gt;
       &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;child&#34;</span>&gt;
@@ -180,22 +184,22 @@
 </code></pre></div><blockquote>
 <p><a href="http://js.jirengu.com/zipug/6/edit?html,css,output">示例</a></p>
 </blockquote>
-<p>##3.利用外部包裹垂直居中
-**需要设置父元素高度 **</p>
-<pre><code>  &lt;div class=&quot;parent&quot;&gt;
-    &lt;span class=before&gt;&lt;/span&gt;
-    &lt;div class=&quot;child&quot;&gt;
+<h2 id="3利用外部包裹垂直居中">3.利用外部包裹垂直居中</h2>
+<p>**需要设置父元素高度 **</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;parent&#34;</span>&gt;
+    &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">before</span>&gt;&lt;/<span style="color:#f92672">span</span>&gt;
+    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;child&#34;</span>&gt;
       外部包裹
-    &lt;/div&gt;
-    &lt;span class=after&gt;&lt;/span&gt;
-  &lt;/div&gt;
-</code></pre><p>用伪元素优化一下：</p>
-<pre><code>  &lt;div class=&quot;parent&quot;&gt;
-    &lt;div class=&quot;child&quot;&gt;
+    &lt;/<span style="color:#f92672">div</span>&gt;
+    &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">after</span>&gt;&lt;/<span style="color:#f92672">span</span>&gt;
+  &lt;/<span style="color:#f92672">div</span>&gt;
+</code></pre></div><p>用伪元素优化一下：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;parent&#34;</span>&gt;
+    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;child&#34;</span>&gt;
       外部包裹
-    &lt;/div&gt;
-  &lt;/div&gt;
-</code></pre><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">parent</span>::<span style="color:#a6e22e">after</span>{
+    &lt;/<span style="color:#f92672">div</span>&gt;
+  &lt;/<span style="color:#f92672">div</span>&gt;
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">parent</span>::<span style="color:#a6e22e">after</span>{
   <span style="color:#66d9ef">content</span>: <span style="color:#e6db74">&#39;&#39;</span>;
   <span style="color:#66d9ef">clear</span>:<span style="color:#66d9ef">both</span>;
   <span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">inline</span><span style="color:#f92672">-</span><span style="color:#66d9ef">block</span>;
@@ -205,8 +209,8 @@
 </code></pre></div><blockquote>
 <p><a href="http://js.jirengu.com/wotum/5/edit">示例</a></p>
 </blockquote>
-<p>##4.div设置table垂直居中
-**需要设置父元素高度 **</p>
+<h2 id="4div设置table垂直居中">4.div设置table垂直居中</h2>
+<p>**需要设置父元素高度 **</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;table&#34;</span>&gt;
       &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;td&#34;</span>&gt;
         &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;child&#34;</span>&gt;
@@ -216,66 +220,66 @@
 </code></pre></div><blockquote>
 <p><a href="http://js.jirengu.com/yuqeg/5/edit">示例</a></p>
 </blockquote>
-<p>##5.负margin垂直居中(兼容IE)
-**绝对定位 **
+<h2 id="5负margin垂直居中兼容ie">5.负margin垂直居中(兼容IE)</h2>
+<p>**绝对定位 **
 **需要设置父子元素高度 **
 **居中内容过多会出现溢出 **</p>
-<pre><code>.child{
-  border: 1px solid green;
-  width: 300px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -150px;
-  height: 100px;
-  margin-top: -50px;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">child</span>{
+  <span style="color:#66d9ef">border</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#66d9ef">green</span>;
+  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">300</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>;
+  <span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">50</span><span style="color:#66d9ef">%</span>;
+  <span style="color:#66d9ef">left</span>: <span style="color:#ae81ff">50</span><span style="color:#66d9ef">%</span>;
+  <span style="color:#66d9ef">margin-left</span>: <span style="color:#ae81ff">-150</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">margin-top</span>: <span style="color:#ae81ff">-50</span><span style="color:#66d9ef">px</span>;
 }
-</code></pre><blockquote>
+</code></pre></div><blockquote>
 <p><a href="http://js.jirengu.com/yahev/1/edit">示例</a></p>
 </blockquote>
-<p>##6.transform垂直居中
-**绝对定位 **
+<h2 id="6transform垂直居中">6.transform垂直居中</h2>
+<p>**绝对定位 **
 **需要设置父元素高度 **</p>
-<pre><code>.child{
-  border: 1px solid green;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">child</span>{
+  <span style="color:#66d9ef">border</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#66d9ef">green</span>;
+  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>;
+  <span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">50</span><span style="color:#66d9ef">%</span>;
+  <span style="color:#66d9ef">left</span>: <span style="color:#ae81ff">50</span><span style="color:#66d9ef">%</span>;
+  <span style="color:#66d9ef">transform</span>: translate(<span style="color:#ae81ff">-50</span><span style="color:#66d9ef">%</span>,<span style="color:#ae81ff">-50</span><span style="color:#66d9ef">%</span>);
 }
-</code></pre><blockquote>
+</code></pre></div><blockquote>
 <p><a href="http://js.jirengu.com/ratip/1/edit?html,css,output">示例</a></p>
 </blockquote>
-<p>##7.margin:auto垂直居中(兼容IE)
-**绝对定位 **
+<h2 id="7marginauto垂直居中兼容ie">7.margin:auto垂直居中(兼容IE)</h2>
+<p>**绝对定位 **
 **需要设置父子元素高度 **
 **居中内容过多会出现溢出 **</p>
-<pre><code>.child{
-  border: 1px solid green;
-  position: absolute;
-  width: 300px;
-  height: 200px;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">child</span>{
+  <span style="color:#66d9ef">border</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#66d9ef">green</span>;
+  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>;
+  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">300</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">200</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">margin</span>: <span style="color:#66d9ef">auto</span>;
+  <span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">0</span>;
+  <span style="color:#66d9ef">bottom</span>: <span style="color:#ae81ff">0</span>;
+  <span style="color:#66d9ef">left</span>: <span style="color:#ae81ff">0</span>;
+  <span style="color:#66d9ef">right</span>: <span style="color:#ae81ff">0</span>;
 }
-</code></pre><blockquote>
+</code></pre></div><blockquote>
 <p><a href="http://js.jirengu.com/fuheq/2/edit">示例</a></p>
 </blockquote>
-<p>##8.flex垂直居中(除IE外都兼容)
-**CSS3解决方案 **
+<h2 id="8flex垂直居中除ie外都兼容">8.flex垂直居中(除IE外都兼容)</h2>
+<p>**CSS3解决方案 **
 **需要设置父元素高度 **
 **真简单~ **</p>
-<pre><code>.parent{
-  height: 600px;
-  border: 3px solid red;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">parent</span>{
+  <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">600</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">border</span>: <span style="color:#ae81ff">3</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#66d9ef">red</span>;
+  <span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">flex</span>;
+  <span style="color:#66d9ef">justify-content</span>: <span style="color:#66d9ef">center</span>;
+  <span style="color:#66d9ef">align-items</span>: <span style="color:#66d9ef">center</span>;
 }
-</code></pre><blockquote>
+</code></pre></div><blockquote>
 <p><a href="http://js.jirengu.com/qorop/2/edit">示例</a></p>
 </blockquote>
 <ul class="pa0">
